@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: aqua;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+.movie-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.movie {
+    margin: 1rem;
+    border-radius: 3px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+.movie-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.movie-info h3 {
+    margin: 0;
+}
+
+.short-description {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1rem;
+    width: 50%;
+    margin: auto;
+    /*border: 2px solid black;*/
+    background-color: rgb(218, 205, 205);
+    margin: 10px auto;
+    border-radius: 6px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.6);
+}
+
+.short-description p {
+    width: 50%;
+    margin: 0px auto;
+    text-align: justify;
+}
+
+.button {
+    text-align: center;
+}
+
+.btn {
+    border-radius: 6px;
+    background-color: rgb(106, 189, 106);
+    color: black;
+    padding: 10px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.6);
+}
+
+.forms {
+    margin: 10px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    /*border: 2px solid black;*/
+    width: 50%;
+    margin: 20px auto;
+    border-radius: 6px;
+    background-color: rgb(235, 225, 225);
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.6);
+    display: none;
+}
+
+.email {
+    margin: 10px 0px;
+}
+
+.email label {
+    margin: 0px 5px;
+}
+
+.email input {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.password input {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+}
